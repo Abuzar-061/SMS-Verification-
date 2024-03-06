@@ -8,9 +8,9 @@ app = Flask(__name__)
 
 # Twilio API credentials
 # Get your own credential from ( https://console.twilio.com/ )
-account_sid = ''
-auth_token = ''
-twilio_number = ''
+account_sid = '' # Add your Sid from twilio
+auth_token = '' # Add your auth_token from twilio
+twilio_number = '' # Add your Twilio number from twilio
 
 # Initialize Twilio client
 client = Client(account_sid, auth_token)
