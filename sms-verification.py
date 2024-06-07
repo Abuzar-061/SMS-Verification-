@@ -26,7 +26,7 @@ def send_verification_code():
     
     # Ensure phone number is in E.164 format
     if not number.startswith('+'):
-        number = '+92' + number  # Assuming Pakistan country code is +92
+        number = '+92' + number  # Pakistan country code is +92
 
     # Generate verification code (you can generate it dynamically if needed)
     verification_code = '123456'
